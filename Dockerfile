@@ -24,7 +24,7 @@ RUN set -x
 # Install requeriments
 RUN apk update -qq
 RUN update-ca-certificates
-RUN apk add --no-cache   ca-certificates wget curl git git-daemon openssh bash procps openssl perl ttf-dejavu tini
+RUN apk add --no-cache   ca-certificates wget curl git git-daemon openssh bash procps openssl perl ttf-dejavu tini xmlstarlet
 
 # Bamboo set up
 RUN rm -rf               /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
