@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-MAINTAINER Eager Minds
+MAINTAINER Javier de Diego Navarro - Eager Minds [javier@eager-minds.com]
 
 # Environment vars
 ENV BAMBOO_HOME        /var/atlassian/application-data/bamboo
